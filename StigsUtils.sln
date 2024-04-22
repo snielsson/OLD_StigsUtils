@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8ECA926A-FB58-4818-BEB5-5FF32D04235B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{9F5AEBDD-617C-40C9-853B-880016804645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StigsUtils", "src\StigsUtils\StigsUtils.csproj", "{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7} = {8ECA926A-FB58-4818-BEB5-5FF32D04235B}
+	EndGlobalSection
+EndGlobal
