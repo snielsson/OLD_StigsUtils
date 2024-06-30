@@ -9,6 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{9F5AEBDD-617
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StigsUtils", "src\StigsUtils\StigsUtils.csproj", "{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StigsUtils.Tests", "tst\StigsUtils.Tests\StigsUtils.Tests.csproj", "{43FD133E-0989-45BA-A140-9F7117B406C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{74AA5210-2113-44A9-840B-A04956D73685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{486C6002-3A58-4D24-8BF1-C44E9BFA590C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +28,20 @@ Global
 		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FD133E-0989-45BA-A140-9F7117B406C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FD133E-0989-45BA-A140-9F7117B406C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FD133E-0989-45BA-A140-9F7117B406C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FD133E-0989-45BA-A140-9F7117B406C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AA5210-2113-44A9-840B-A04956D73685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AA5210-2113-44A9-840B-A04956D73685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AA5210-2113-44A9-840B-A04956D73685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AA5210-2113-44A9-840B-A04956D73685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B4A98439-46CF-4444-BC69-5B5CDC34ECF7} = {8ECA926A-FB58-4818-BEB5-5FF32D04235B}
+		{43FD133E-0989-45BA-A140-9F7117B406C4} = {9F5AEBDD-617C-40C9-853B-880016804645}
 	EndGlobalSection
 EndGlobal
